@@ -1,0 +1,100 @@
+/* IN, CSS and JS, THIS IS A COMMENT  */
+
+/* here's how to smooth scroll: https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* defining the background colour of the webpage */
+body {
+	background-color: lightseagreen;
+}
+
+/* defining the layout container targeted in the html */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5%;
+}
+
+.right {
+	float:right}
+
+/* defining all images */
+img {
+	max-width: 100%; 
+	height: auto;
+}
+
+/* defining all text headings */
+h1 {
+	font-size: 3rem;
+	font-family: cursive;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: monospace;
+	font-weight: 400;
+	font-size: 2rem;
+	margin-top: 3rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+/* defining all captions for images */
+.figcaption {
+	font-size: 1rem;
+	font-family: monospace;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: slategray;
+}
+
+/* defining all pullquotes */
+blockquote {
+	color: slategrey;
+	font-size: 1.25rem;
+}
+
+
+
+/* responsive: defining larger than 600px */
+@media (min-width: 600px) {
+h1 {
+	font-size: 5rem;
+	font-family: cursive;
+	font-weight: 400;
+}
+
+h2 {
+	font-family: monospace;
+	font-weight: 400;
+	font-size: 3rem;
+	margin-top: 3rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+/* if informational = monochromatic. if interactive = use colour and shape */
+blockquote {
+	color: slategrey;
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1.25rem;
+}
+
+
+
+
